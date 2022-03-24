@@ -1,0 +1,10 @@
+@use 'custom' as *;
+
+
+footer{
+    background: $my_purple;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}

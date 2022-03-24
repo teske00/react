@@ -1,0 +1,17 @@
+@use '../custom' as *;
+
+.refer-card{
+    margin-bottom: 20px;
+    background: $my_purple_dark;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    .heading{
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+}

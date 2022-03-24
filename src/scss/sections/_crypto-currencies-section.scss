@@ -1,0 +1,12 @@
+@use '../custom' as *;
+
+.crypto-currencies{
+    color: white;
+    margin: 40px 0;
+
+    .section-title{
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}

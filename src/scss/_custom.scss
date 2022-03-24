@@ -1,0 +1,37 @@
+
+//THEME COLORS
+$my_purple:#44197B;
+$my_purple_dark: #210248;
+$my_purple_light:#A258FF;
+$my_blue: #0B65AA;
+$progress_orange: #F7931A;
+$progress_blue:#2775CA;
+$chart_font_purple: #6C30B8;
+$chart_percentage_green: #2FB99C;
+$table_red:#DF364D;
+
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+
+$primary:       $my_blue;
+$secondary:     $my_purple;
+
+
+
+
+$phone: 768px;
+//IMPOER BOOTSTRAP 5
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

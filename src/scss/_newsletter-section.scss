@@ -1,0 +1,64 @@
+@use 'custom' as *;
+
+.newsletter-section{
+    min-height: 60vh;
+    text-align: center;
+    background: $my_purple_dark;
+    padding: 60px 0;
+    color: white;
+
+    .newsletter-label{
+        font-size: 18px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+
+    .input-group{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .links{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0;
+        a{
+            color: white;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+        a{
+            margin: 0 20px;
+        }
+
+        img{
+            width: 26px;
+        }
+    }
+}
+
+
+@media screen and (max-width: $phone) {
+    .newsletter-section{
+        .input-group{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .links{
+            flex-direction: column;
+
+            a{
+                margin: 20px 0 !important;
+            }
+        }
+    }
+}

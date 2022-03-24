@@ -1,0 +1,24 @@
+@use '../custom' as *;
+
+.user-dropdown{
+    background: transparent;
+    button{
+        background: transparent;
+        border:none;
+    }
+    img{
+        width: 34px;
+        margin-right: 10px;
+    }
+    .dropdown-menu{
+        width: 100%;
+        text-align: right;
+        background: rgba(91, 8, 129, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+
+        a{
+            display: block;
+        }
+    }
+}

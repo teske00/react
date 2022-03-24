@@ -1,0 +1,56 @@
+@use '../custom' as *;
+
+.welcome-section{
+    background: $secondary;
+    color: white;
+    background: linear-gradient(176.64deg, #210248 8.68%, #620889 106.31%);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 20px;
+
+    .welcome-text{
+        font-size: 26px;
+        margin-bottom: 0;
+        font-weight: lighter;
+    }
+
+    .username{
+        font-size: 26px;
+        margin-bottom: 16px;
+        font-weight: lighter;
+        font-weight: bold;
+        line-height: 0%;
+        margin-top: 8px;
+        margin-bottom: 40px;
+    }
+
+
+    .text{
+        font-weight: lighter;
+    }
+
+    
+
+    .right-part{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .complete-setup{
+        position: relative;
+    }
+}
+
+
+@media screen and (max-width: $phone) {
+    .right-part{
+        align-items: center;
+    }
+    .complete-setup{
+        margin-top: 30px;
+    }
+  }
+  
